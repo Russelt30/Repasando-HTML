@@ -1,7 +1,30 @@
 /* aprendiendo a editar texto */
+/* 
+selector universal */
+*{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: burlywood
+}
 
 h1{
     color: rgb(51, 189, 58);
     font-size: 50pt;
     text-align: center;
+}
+
+/* clase */
+.titulo{
+    color: darksalmon;
+    font-size: 23pt;
+}
+
+/* id */
+#primera{
+    color: blueviolet;
+    text-align:left;
+}
+
+#segunda{
+    color: brown;
+    font-size: small;
 }
